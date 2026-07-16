@@ -1,23 +1,28 @@
 # Python
-backend/.venv/
+.venv/
 __pycache__/
-*.py[cod]
+*.pyc
+.pytest_cache/
+.mypy_cache/
 
-# Environment Variables
+# Environment
 .env
-.env.*
+
+# VS Code
+.vscode/
 
 # Node
-frontend/node_modules/
-frontend/dist/
+node_modules/
+
+# Build
+dist/
+build/
 
 # Logs
 *.log
 
-# IDE
-.vscode/
-.idea/
-
-# OS
+# macOS
 .DS_Store
+
+# Windows
 Thumbs.db
